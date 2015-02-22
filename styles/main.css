@@ -36,7 +36,7 @@ article h1:hover {
 article h1:before,
 article h1:after {
     content: ' + ';
-    color: rgb(220, 220, 220);
+    color: rgb(210, 210, 210);
 }
 
 article[data-open] h1:before,
