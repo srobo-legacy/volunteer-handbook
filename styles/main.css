@@ -5,20 +5,16 @@ body {
     padding: 0;
 
     font-family: 'Open Sans', sans-serif;
+}
 
-    background-image: url('../images/header.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+header img {
+    width: 100%;
 }
 
 main {
     background-image: url('../images/tracks.png'), url('../images/background.png');
     background-position: top center, top center;
     background-repeat: repeat-y, repeat;
-
-    margin: 300px 0 0 0;
-    padding: 0;
 }
 
 article h1 {
@@ -47,12 +43,23 @@ article[data-open] h1:after {
     content: ' − ';
 }
 
+
 article:nth-child(even) h1 {
-    padding-left: 5em;
+    padding-left: 1em;
 }
 
 article:nth-child(odd) h1 {
-    padding-right: 5em;
+    padding-right: 1em;
+}
+
+@media (min-width: 720px) {
+    article:nth-child(even) h1 {
+        padding-left: 5em;
+    }
+
+    article:nth-child(odd) h1 {
+        padding-right: 5em;
+    }
 }
 
 article .content {
