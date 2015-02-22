@@ -59,3 +59,17 @@ article .content {
 article[data-open] .content {
     display: block;
 }
+
+article .content {
+    padding: 1em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+}
