@@ -13,7 +13,10 @@ body {
 }
 
 main {
-    background: white;
+    background-image: url('../images/tracks.png'), url('../images/background.png');
+    background-position: top center, top center;
+    background-repeat: repeat-y, repeat;
+
     margin: 300px 0 0 0;
     padding: 0;
 }
