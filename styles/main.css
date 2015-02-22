@@ -61,7 +61,17 @@ article[data-open] .content {
 }
 
 article .content {
-    padding: 1em;
+    padding: 0 2em;
+    text-align: justify;
+}
+
+a {
+    color: rgb(0, 49, 110);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 dt {
@@ -70,6 +80,6 @@ dt {
 
 dd {
     margin-left: 1em;
-    margin-top: 0.1em;
-    margin-bottom: 1em;
+    margin-top: 0.2em;
+    margin-bottom: 1.5em;
 }
