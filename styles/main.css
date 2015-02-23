@@ -9,6 +9,7 @@ body {
 
 header img {
     width: 100%;
+    margin-bottom: -5px;  /* I'm not sure why there is a 5px gap here. */
 }
 
 main {
