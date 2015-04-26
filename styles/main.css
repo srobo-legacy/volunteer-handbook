@@ -75,10 +75,11 @@ article[data-open] .content {
 article .content {
     padding: 0 15%;
     text-align: justify;
+    line-height: 1.5;
 }
 
-article p {
-    line-height: 1.5;
+article .content ul {
+    padding-left: 22px;
 }
 
 a {
