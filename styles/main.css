@@ -100,3 +100,14 @@ dd {
     margin-top: 0.2em;
     margin-bottom: 1.5em;
 }
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 70px;
+    position: relative;
+    left: -30px;
+    top: -12px;
+    color: rgb(200, 200, 200);
+    height: 0;
+}
