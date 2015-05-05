@@ -5,12 +5,27 @@ body {
     padding: 0;
 
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
 header img {
     width: 100%;
     margin-bottom: -5px;  /* I'm not sure why there is a 5px gap here. */
     border-bottom: 1px solid black;
+}
+
+header h1 {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    width: 100%;
+    margin: 0;
+
+    font-family: 'Aleo', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
 }
 
 main {
